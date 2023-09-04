@@ -8,10 +8,10 @@
 
 .main {
   width: 100vw;
-  min-height: 100vh;
+  min-height: 100%;
   position: fixed;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   /* padding: 120px 24px 160px 24px; */
   /* pointer-events: none; */
 }
