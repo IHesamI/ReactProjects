@@ -12,5 +12,5 @@ export default function useDelayInput(delay: number = 1000) {
         clearTimeout(inputtimer)
         inputtimer = setTimeout(() => setArticle({ ...article, url: e?.target?.value }), delay)
     }
-    return {article, handelInput}
+    return {article, handelInput,setArticle}
 }
